@@ -6,12 +6,12 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-  //oooaaaaiiiiii0000000
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter ',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -122,7 +122,7 @@ class Test {
     print(a * b);
   }
   void waru() {
-    print(a / b);
+    print(a / b+1);
   }
 
 }
